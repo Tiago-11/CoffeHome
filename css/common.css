@@ -1,0 +1,78 @@
+#navegacion nav{
+    background-color: #0D0200;
+}
+#navegacion nav a {
+    color:white;
+}
+#navegacion nav span{
+    color: white;
+}
+#navegacion .dropdown-menu{
+    background-color: #361500;
+}
+#navegacion .dropdown-menu li:hover{
+    background-color: #603601 !important;
+}
+#navegacion .dropdown-menu li a:hover{
+    color:black;
+}
+#navegacion .dropdown-menu li a:active{
+    background-color: #603601;
+}
+#navegacion .d-flex button{
+    border: 1px solid #F4DFBA;
+    background-color: #0D0200;
+}
+
+#navegacion .d-flex button:hover{
+    background-color: #F4DFBA !important;
+    color: #0D0200;
+}
+
+#principal{
+    padding-bottom: 100px;
+}
+
+footer button{
+    background-color: #F4DFBA !important;
+    border-top: 0 !important;
+    border-right: 0 !important;
+    border-bottom: 0 !important;
+    border-left: 1px solid #0D0200 !important;
+    color: #0D0200 !important;    
+}
+
+footer div{
+    background-color: #0D0200 !important;
+    color:white
+}
+footer div a{
+    color: white;
+}
+footer div a:hover{
+    color: #F4DFBA;
+}
+
+#footer{
+    padding: 0;
+    margin: 0;
+    border: 1px solid black;
+}
+footer .row{
+    margin: 0;
+    padding: 80px;
+}
+
+@media(max-width:500px){
+    footer .row{
+        margin: 0;
+        padding: 40px;
+    }   
+}
+
+#migas{
+    padding: 20px 30px;
+}
+#migas ol li a{
+    color: #0D0200;
+}

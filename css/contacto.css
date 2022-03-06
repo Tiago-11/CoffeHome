@@ -1,0 +1,111 @@
+/* #ubicacion{
+    padding: 20px 200px;
+}
+@media (max-width:1400px) {
+    #ubicacion{
+        padding: 20px 250px;
+    }
+} */
+
+#ubicacion{
+    padding: 20px 200px;
+}
+#contacto{
+    padding: 20px 210px;
+}
+
+#principal #donde-estamos{
+    display: inline-block;
+    width: 60%;
+    padding: 20px;
+    
+}
+#principal #mapa{
+    display: inline-block;
+
+}
+
+@media(max-width:1420px){
+    #ubicacion{
+        padding: 20px 140px;
+    }
+    #contacto{
+        padding: 20px 155px;
+    }
+}
+
+@media(max-width:1325px){
+    #ubicacion{
+        padding: 20px 100px;
+    }
+    #contacto{
+        padding: 20px 100px;
+    }
+}
+
+@media(max-width:1215px){
+    #ubicacion{
+        padding: 20px 50px;
+    }
+    #contacto{
+        padding: 20px 50px;
+    }
+}
+
+@media(max-width:1130px){
+    #ubicacion{
+        padding: 20px 10px;
+    }
+    #principal #donde-estamos{
+        width: 50%;
+    }
+}
+
+@media(max-width:1130px){
+    #ubicacion{
+        padding: 20px 10px;
+    }
+    #ubicacion div{
+        display: block;
+    }
+    #principal #donde-estamos{
+        width: 100%;
+    }
+    #principal #mapa{
+        margin: 10px 220px;
+    }
+}
+
+@media(max-width:870px){
+    
+    #principal #mapa{
+        margin: 10px;
+        margin-left: 150px;
+    }
+}
+
+
+@media(max-width:670px){
+    
+    #principal #mapa{
+        margin: 10px;
+        margin-left: 110px;
+    }
+}
+
+@media(max-width:560px){
+    #ubicacion div{
+        display: block;
+    }
+    #principal #donde-estamos{
+        width: 100%;
+    }
+    #principal #mapa{
+        margin: 10px 20px;
+    }
+}
+
+#principal .btn{
+    background-color: #0D0200;
+    border: 0;
+}

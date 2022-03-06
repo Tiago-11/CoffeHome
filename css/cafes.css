@@ -1,0 +1,38 @@
+
+#cartas h2{
+    text-align: center;
+    padding-top: 20px;
+}
+.card{
+    margin-top: 15px;
+}
+.card:hover{
+    background-color: #0F0200;
+    color: white;
+}
+.card button{
+    background-color: #0F0200 !important;
+    border: 1px solid white;
+}
+.card button:hover{
+    border: 0;
+    background-color: white !important;
+    color: #0D0200;
+}
+
+#carouselExampleSlidesOnly{
+    position: relative;
+    text-align: center;
+}
+#carouselExampleSlidesOnly img{
+    max-height: 775px;
+}
+#carouselExampleSlidesOnly .centrado{
+    border: 5px solid white;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,112 @@
+#presentacion{
+    padding: 30px 30px;
+}
+#presentacion img{
+    width: 100%;
+    height: 100%;
+}
+#presentacion .row{
+    margin: 0;
+}
+
+#infoPresentacion{
+    padding-top: 30px;
+}
+
+#infoPresentacion .col-md-8 .col-md-8{
+    background-color: #F4DFBA;
+    padding: 20px;
+}
+
+.row{
+    width: 100%;
+}
+h2{
+    padding-top: 25px;
+}
+#presentacion img{
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+}
+#infoPresentacion div.col-sm-12 div.col-md-8 div.col-lg-8 p{
+    padding: 10px 50px !important;
+}
+#carouselExampleControls{
+    position: relative;
+    text-align: center;
+}
+
+#carouselExampleControls .centrado{
+    border: 5px solid white;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.page-section {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  
+  .section-heading {
+    text-transform: uppercase;
+  }
+  .section-heading .section-heading-upper {
+    display: block;
+    font-size: 1rem;
+    font-weight: 800;
+  }
+  .section-heading .section-heading-lower {
+    display: block;
+    font-size: 3rem;
+    font-weight: 100;
+  }
+  
+  .bg-faded {
+    background-color: #f6e1c5;
+  }
+  
+  .btn-xl {
+    font-weight: 700;
+    font-size: 0.8rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+
+  .bg-faded{
+    background-color: #F4DFBA;
+}
+
+.sobre-nosotros{
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+
+
+@media (min-width: 992px) {
+    .sobre-nosotros .sobre-nosotros-img {
+        position: relative;
+        z-index: 0;
+    }
+    .sobre-nosotros .sobre-nosotros-contenido {
+        margin-top: -5rem;
+        position: relative;
+        z-index: 1;
+    }
+}
+
+@media(min-width:500px){
+    .sobre-nosotros-contenido{
+        padding-left: 25px;
+    }
+}
